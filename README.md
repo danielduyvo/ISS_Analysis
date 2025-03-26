@@ -244,7 +244,7 @@ This step requires interactive use of the
 The goal here is to generate a list of coordinates in both the 40X and
 10X magnification for at least 3 cells (5 recommended). Edit the
 variable `p_10X` to add to the list of coordinates within the 10X
-magnification space. Points are in the form (<tile>, <i>, <j>). Once 3
+magnification space. Points are in the form `(<tile>, <i>, <j>)`. Once 3
 points are provided, an affine transformation function will be optimized
 for converting between the two coordinate systems. This function is
 described by 5 parameters, which are output as the variable `DOF`.
